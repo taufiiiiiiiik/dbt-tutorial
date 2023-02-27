@@ -1,0 +1,13 @@
+# example profiles.yml file
+data_warehouse:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: postgres
+      password: P@ssw0rd
+      port: 5432
+      dbname: analytics
+      schema: dbt_analytics
+      threads: 4
